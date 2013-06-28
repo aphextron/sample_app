@@ -1,4 +1,11 @@
 @import "bootstrap";
+
+.debug{
+  width:100%;
+  position:fixed;
+  bottom:0;
+}
+
 html {
   overflow-y: scroll;
 }
@@ -60,7 +67,7 @@ p {
 }
 
 #logo:hover {
-  color: blue;
+  text-shadow:0px 0px 3px white;
   text-decoration: none;
   transition: 400ms;
 }
